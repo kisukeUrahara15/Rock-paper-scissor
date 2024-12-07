@@ -22,10 +22,12 @@ body {
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text inside the container */
 }
 .result_images {
   display: flex;
   column-gap: 7rem;
+  justify-content: center; /* Center the result images */
 }
 .container.start .user_result {
   transform-origin: left;
@@ -36,7 +38,6 @@ body {
     transform: rotate(10deg);
   }
 }
-
 .container.start .cpu_result {
   transform-origin: right;
   animation: cpuShake 0.7s ease infinite;
@@ -61,7 +62,6 @@ body {
   color: #7d2ae8;
   margin-top: 1.5rem;
 }
-
 .option_image img {
   width: 50px;
 }
@@ -96,4 +96,9 @@ body {
   font-size: 1.235rem;
   margin-top: 1rem;
   pointer-events: none;
+}
+/* Center the heading */
+h6{
+  text-align: center;
+  color: #7d2ae8; /* Set the color for the heading */
 }
